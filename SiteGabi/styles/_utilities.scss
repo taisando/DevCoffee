@@ -1,0 +1,41 @@
+//Estilos de texto
+.x-large{
+    font-size: 4rem; //1rem= '16pix
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.large{
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;    
+}
+
+.lead{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+//texto em cima da imagem
+.dark-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.heading-secundary{
+    @include text-decoration; //chamando o mixing
+    font-size: 2rem;
+    margin-top: 8px;
+    padding-top: 5rem;
+    color: $primary-color;
+}
+
+.heading-tertiary{
+    color: $primary-color;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}

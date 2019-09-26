@@ -1,0 +1,12 @@
+//variavel e a cor
+$primary-color: #125E8A;
+$dark-color: #343a40;
+$light-color: #f4f4f4;
+$gray-light: #f7f7f7;
+
+//Mixin
+@mixin text-decoration {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}

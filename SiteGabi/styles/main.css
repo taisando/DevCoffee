@@ -1,0 +1,203 @@
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.heading-secundary {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 8px;
+  padding-top: 5rem;
+  color: #125E8A;
+}
+
+.heading-tertiary {
+  color: #125E8A;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #343a40;
+}
+
+a {
+  text-decoration: none;
+  color: #125E8A;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.7rem 2rem;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar a {
+  color: #f4f4f4;
+  padding: 0.45rem;
+  margin: 0 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: #125E8A;
+}
+
+.landing {
+  position: relative;
+  background: url("../img/Coffee.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.landing-inner {
+  color: #f4f4f4;
+  height: 175%;
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-about {
+  background: #f7f7f7;
+  height: 100vh;
+}
+
+.section-about #about {
+  margin-top: 5%;
+  padding-left: 10rem;
+}
+
+.section-about #about p {
+  width: 40%;
+}
+
+.section-about .btn-text {
+  margin-top: 20px;
+  text-align: left;
+  width: 10%;
+  border-bottom: 1px solid #125E8A;
+  margin-bottom: 25px;
+}
+
+.section-about a {
+  color: #125E8A;
+}
+
+.section-about a:hover {
+  color: #343a40;
+}
+
+.composition {
+  position: relative;
+  margin-top: -25rem;
+}
+
+.composition__photo {
+  width: 22%;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+
+.composition__photo--p1 {
+  right: 25%;
+  top: -5rem;
+}
+
+.composition__photo--p2 {
+  right: 13%;
+  top: -2rem;
+}
+
+.composition__photo--p3 {
+  right: 20%;
+  top: 4.5rem;
+}
+
+.composition__photo:hover {
+  outline: 0.5rem solid #125E8A;
+  -webkit-transform: scale(1.1) translateY(-0.5rem);
+          transform: scale(1.1) translateY(-0.5rem);
+  -webkit-box-shadow: 0 2.5rem 4rem rgba(52, 58, 64, 0.5);
+          box-shadow: 0 2.5rem 4rem rgba(52, 58, 64, 0.5);
+  z-index: 20;
+}
+
+.composition:hover .composition__photo:not(hover) {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+/*# sourceMappingURL=main.css.map */
